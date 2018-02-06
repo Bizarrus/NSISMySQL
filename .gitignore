@@ -1,5 +1,7 @@
 # Hide temporary files
 .vs/
-ANSI/
-Unicode/
+/ANSI/
+/MySQL/ANSI/
+/Unicode/
+/MySQL/Unicode/
 *.aps
