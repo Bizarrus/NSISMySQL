@@ -10,15 +10,24 @@ Move `MySQL.dll` to your `NSIS` directory, for sample:
 # Usage
 ## Set connection Informations
 
-	MySQL::SetCredentials <Hostname> <Port> <Database> <Username> <Password>
+```nsis
+MySQL::SetCredentials <Hostname> <Port> <Database> <Username> <Password>
+```
+
 **Example**
 	
-	MySQL::SetCredentials "localhost" 3306 "mysql" "root" ""
-	
+```
+MySQL::SetCredentials "localhost" 3306 "mysql" "root" ""
+```
+
 ## Query
-	
-	MySQL::Query <Statement>
-	
+
+```nsis
+MySQL::Query <Statement>
+```
+
 **Example**
 
-		MySQL::Query "CREATE DATABASE IF NOT EXISTS `demo`;"
+```
+MySQL::Query "CREATE DATABASE IF NOT EXISTS `demo`;"
+```
