@@ -4,6 +4,7 @@
 Move `MySQL.dll` to your `NSIS` directory, for sample:
 
 `ANSI\MySQL.dll` > `C:\Program Files (x86)\NSIS\Plugins\x86-ansi\MySQL.dll`
+
 `Unicode\MySQL.dll` > `C:\Program Files (x86)\NSIS\Plugins\x86-unicode\MySQL.dll`
 
 # Usage
