@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQL", "MySQL\MySQL.vcxproj", "{EF1D52D9-799E-44E2-8A47-94D647BD9368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ANSI|x64 = ANSI|x64
+		ANSI|x86 = ANSI|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Unicode|x64 = Unicode|x64
+		Unicode|x86 = Unicode|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.ANSI|x64.ActiveCfg = ANSI|x64
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.ANSI|x64.Build.0 = ANSI|x64
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.ANSI|x86.ActiveCfg = ANSI|Win32
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.ANSI|x86.Build.0 = ANSI|Win32
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Debug|x64.ActiveCfg = Debug|x64
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Debug|x64.Build.0 = Debug|x64
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Debug|x86.ActiveCfg = Debug|Win32
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Debug|x86.Build.0 = Debug|Win32
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Release|x64.ActiveCfg = Release|x64
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Release|x64.Build.0 = Release|x64
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Release|x86.ActiveCfg = Release|Win32
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Release|x86.Build.0 = Release|Win32
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Unicode|x64.ActiveCfg = Unicode|x64
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Unicode|x64.Build.0 = Unicode|x64
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Unicode|x86.ActiveCfg = Unicode|Win32
+		{EF1D52D9-799E-44E2-8A47-94D647BD9368}.Unicode|x86.Build.0 = Unicode|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA02B2E4-0323-410E-9D0C-BC83FE6F3E14}
+	EndGlobalSection
+EndGlobal
