@@ -1,4 +1,4 @@
-# NSIS: MySQL
+# :orange_book: NSIS: MySQL
 
 # Installation
 Move `MySQL.dll` to your `NSIS` directory, for sample:
@@ -8,25 +8,25 @@ Move `MySQL.dll` to your `NSIS` directory, for sample:
 `Unicode\MySQL.dll` > `C:\Program Files (x86)\NSIS\Plugins\x86-unicode\MySQL.dll`
 
 # Usage
-## Set connection Informations
+## :key: Set connection Informations
 
 ```nsis
 MySQL::SetCredentials <Hostname> <Port> <Database> <Username> <Password>
 ```
 
-**Example**
+**:scissors: Example**
 	
 ```
 MySQL::SetCredentials "localhost" 3306 "mysql" "root" ""
 ```
 
-## Query
+## :scroll: Query
 
 ```nsis
 MySQL::Query <Statement>
 ```
 
-**Example**
+**:scissors: Example**
 
 ```
 MySQL::Query "CREATE DATABASE IF NOT EXISTS `demo`;"
